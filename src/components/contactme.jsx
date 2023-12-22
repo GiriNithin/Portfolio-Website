@@ -9,6 +9,7 @@ const ContactMe = () => {
       alignItems={"center"}
       flexDirection={"column"}
       justifyContent={"center"}
+      id="contactme"
     >
       <Text marginBottom={"2vh"}>Contact Me</Text>
       <Link

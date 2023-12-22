@@ -7,6 +7,7 @@ const Footer = () => {
       margin={"auto"}
       maxWidth={"50vw"}
       alignItems={"center"}
+      
     >
       <Text>&copy; Developed by Giri Nithin Yogendra</Text>
       <Text>Built with React.js, Chakra UI</Text>

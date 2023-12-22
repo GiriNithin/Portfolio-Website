@@ -21,7 +21,7 @@ const Header = () => {
       zIndex={1}
     >
       <Flex align="center" mr={5}>
-        <Link href="#home" fontSize="xl" fontWeight="bold">
+        <Link href="#" fontSize="xl" fontWeight="bold">
           Home
         </Link>
       </Flex>
@@ -30,13 +30,13 @@ const Header = () => {
         display={{ base: "block", md: "flex" }}
         width={{ base: "full", md: "auto" }}
       >
-        <Link href="#about" p={2}>
+        <Link href="#aboutme" p={2}>
           About Me
         </Link>
         <Link href="#skills" p={2}>
           Skills
         </Link>
-        <Link href="#contact" p={2}>
+        <Link href="#contactme" p={2}>
           Contact Me
         </Link>
       </Box>

@@ -9,6 +9,7 @@ const Skills = () => {
       minHeight={"70vh"}
       flexDirection={"column"}
       maxWidth={"50vw"}
+      id="skills"
     >
       <Box marginBottom={"6vh"}>
         <Text fontSize={"1.5rem"}>My Skills</Text>

@@ -7,6 +7,7 @@ const AboutMe = () => {
       //alignItems={"center"}
       justifyContent={"center"}
       minHeight={"70vh"}
+      id="aboutme"
     >
       <Box>
         <Text textAlign={"center"} fontSize={"1.5rem"}>
