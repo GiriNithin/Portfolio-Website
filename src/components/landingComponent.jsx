@@ -19,9 +19,13 @@ const LandingComponent = () => {
         Full-Stack Development, Data Engineering and Machine Learning.
       </Text>
       <Button margin={"20px 0px"} width={"10rem"}>
-        Contact Me
+        <a href="#contactme">Contact Me</a>
       </Button>
-      <Button width={"10rem"}>Resume</Button>
+      <Button width={"10rem"}>
+        <a href="/Resume.pdf" download="Giri-Nithin-Resume.pdf">
+          Resume
+        </a>
+      </Button>
     </Flex>
   );
 };

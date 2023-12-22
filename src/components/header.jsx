@@ -20,16 +20,13 @@ const Header = () => {
       top={0}
       zIndex={1}
     >
-      <Flex align="center" mr={5}>
-        <Link href="#" fontSize="xl" fontWeight="bold">
-          Home
-        </Link>
-      </Flex>
-
       <Box
         display={{ base: "block", md: "flex" }}
         width={{ base: "full", md: "auto" }}
       >
+        <Link href="#" p={2}>
+          Home
+        </Link>
         <Link href="#aboutme" p={2}>
           About Me
         </Link>
